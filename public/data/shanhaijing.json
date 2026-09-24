@@ -1,0 +1,529 @@
+{
+  "id": "root",
+  "name": "山海经",
+  "type": "overview",
+  "parentId": null,
+  "map": { "x": 500, "y": 500 },
+  "originalText": null,
+  "summary": "《山海经》概念地图。总览按传统方位排布：中为中山经，南、西、北、东四山经环绕，外圈为海外、海内、大荒。地图不追求真实经纬度，重点呈现卷、山系、山与实体之间的文献关系。",
+  "source": "《山海经》传世本编排",
+  "children": [
+    {
+      "id": "volume-zhongshan",
+      "name": "中山经",
+      "type": "volume",
+      "parentId": "root",
+      "map": { "x": 500, "y": 500 },
+      "originalText": null,
+      "summary": "五藏山经第五卷，居五方之中。内容待补。",
+      "source": "《山海经·中山经》",
+      "children": []
+    },
+    {
+      "id": "volume-nanshan",
+      "name": "南山经",
+      "type": "volume",
+      "parentId": "root",
+      "map": { "x": 500, "y": 370 },
+      "originalText": "南山经之首曰鹊山。",
+      "summary": "五藏山经第一卷，记南方三列山系：鹊山之首、南次二经、南次三经。本版先扩充鹊山之首。",
+      "source": "《山海经（四库全书本）·卷一·南山经》",
+      "children": [
+        {
+          "id": "range-queshan",
+          "name": "鹊山之首",
+          "type": "range",
+          "parentId": "volume-nanshan",
+          "map": { "x": 230, "y": 480 },
+          "originalText": "南山经之首曰鹊山。",
+          "summary": "南山经第一列山系，由招摇之山起，向东递进，至箕尾之山止。原文总计“凡十山，二千九百五十里”。",
+          "source": "《山海经（四库全书本）·卷一·南山经》",
+          "children": [
+            {
+              "id": "mount-zhaoyao",
+              "name": "招摇之山",
+              "type": "mountain",
+              "parentId": "range-queshan",
+              "map": { "x": 108, "y": 535 },
+              "originalText": "其首曰招摇之山，临于西海之上，多桂，多金玉。有草焉，其状如韭而青花，其名曰祝余，食之不饥。有木焉，其状如榖而黑理，其花四照，其名曰迷谷，佩之不迷。有兽焉，其状如禺而白耳，伏行人走，其名曰狌狌，食之善走。丽𪊨之水出焉，而西流注于海，其中多育沛，佩之无瘕疾。",
+              "summary": "鹊山之首的首山，临近西海，多桂树、金玉。山中记有祝余、迷谷、狌狌，以及丽𪊨之水中的育沛。",
+              "source": "《山海经（四库全书本）·卷一·南山经》",
+              "children": [
+                {
+                  "id": "entity-zhuyu",
+                  "name": "祝余",
+                  "type": "plant",
+                  "parentId": "mount-zhaoyao",
+                  "map": { "x": 300, "y": 300 },
+                  "originalText": "有草焉，其状如韭而青花，其名曰祝余，食之不饥。",
+                  "summary": "一种草，形状像韭菜，开青色花。据原文，食用后不会饥饿。",
+                  "source": "《山海经（四库全书本）·卷一·南山经》",
+                  "children": []
+                },
+                {
+                  "id": "entity-migu",
+                  "name": "迷谷",
+                  "type": "plant",
+                  "parentId": "mount-zhaoyao",
+                  "map": { "x": 700, "y": 300 },
+                  "originalText": "有木焉，其状如榖而黑理，其花四照，其名曰迷谷，佩之不迷。",
+                  "summary": "一种树，形状像榖树而有黑色纹理，花光照四方。据原文，佩戴它不会迷路。",
+                  "source": "《山海经（四库全书本）·卷一·南山经》",
+                  "children": []
+                },
+                {
+                  "id": "entity-xingxing",
+                  "name": "狌狌",
+                  "type": "animal",
+                  "parentId": "mount-zhaoyao",
+                  "map": { "x": 300, "y": 700 },
+                  "originalText": "有兽焉，其状如禺而白耳，伏行人走，其名曰狌狌，食之善走。",
+                  "summary": "一种兽，形状像禺而有白耳，能伏地行走，也能像人一样奔走。据原文，食用后善于行走。",
+                  "source": "《山海经（四库全书本）·卷一·南山经》",
+                  "children": []
+                },
+                {
+                  "id": "entity-yupei",
+                  "name": "育沛",
+                  "type": "mineral",
+                  "parentId": "mount-zhaoyao",
+                  "map": { "x": 700, "y": 700 },
+                  "originalText": "丽𪊨之水出焉，而西流注于海，其中多育沛，佩之无瘕疾。",
+                  "summary": "丽𪊨之水中的物产。据原文，佩戴它可免于瘕疾。育沛具体为何物，待考。",
+                  "source": "《山海经（四库全书本）·卷一·南山经》",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "id": "mount-tangting",
+              "name": "堂庭之山",
+              "type": "mountain",
+              "parentId": "range-queshan",
+              "map": { "x": 205, "y": 668 },
+              "originalText": "又东三百里曰堂庭之山，多棪木，多白猿，多水玉，多黄金。",
+              "summary": "在招摇之山东三百里。山上多棪木、白猿、水玉和黄金。",
+              "source": "《山海经（四库全书本）·卷一·南山经》",
+              "children": []
+            },
+            {
+              "id": "mount-yuanyi",
+              "name": "猿翼之山",
+              "type": "mountain",
+              "parentId": "range-queshan",
+              "map": { "x": 300, "y": 535 },
+              "originalText": "又东三百八十里曰猿翼之山，其中多怪兽，水多怪鱼，多白玉，多蝮虫，多怪蛇，多怪木，不可以上。",
+              "summary": "在堂庭之山东三百八十里。山中多怪兽，水中多怪鱼，并多白玉、蝮虫、怪蛇、怪木，山势不可登上。",
+              "source": "《山海经（四库全书本）·卷一·南山经》",
+              "children": []
+            },
+            {
+              "id": "mount-chouyang",
+              "name": "杻阳之山",
+              "type": "mountain",
+              "parentId": "range-queshan",
+              "map": { "x": 395, "y": 668 },
+              "originalText": "又东三百七十里曰杻阳之山，其阳多赤金，其阴多白金。有兽焉，其状如马而白首，其文如虎而赤尾，其音如谣，其名曰鹿蜀，佩之宜子孙。怪水出焉，而东流注于宪翼之水，其中多玄龟，其状如龟而鸟首虺尾，其名曰旋龟，其音如判木，佩之不聋，可以为底。",
+              "summary": "在猿翼之山东三百七十里。山南多赤金，山北多白金。山中有鹿蜀，怪水中有旋龟。",
+              "source": "《山海经（四库全书本）·卷一·南山经》",
+              "children": [
+                {
+                  "id": "entity-lushu",
+                  "name": "鹿蜀",
+                  "type": "animal",
+                  "parentId": "mount-chouyang",
+                  "map": { "x": 320, "y": 430 },
+                  "originalText": "有兽焉，其状如马而白首，其文如虎而赤尾，其音如谣，其名曰鹿蜀，佩之宜子孙。",
+                  "summary": "一种兽，形状像马，白头，身上有虎纹，红尾，声音像歌谣。据原文，佩戴它有利于子孙。",
+                  "source": "《山海经（四库全书本）·卷一·南山经》",
+                  "children": []
+                },
+                {
+                  "id": "entity-xuangui",
+                  "name": "旋龟",
+                  "type": "animal",
+                  "parentId": "mount-chouyang",
+                  "map": { "x": 680, "y": 570 },
+                  "originalText": "其中多玄龟，其状如龟而鸟首虺尾，其名曰旋龟，其音如判木，佩之不聋，可以为底。",
+                  "summary": "怪水中的龟类，形状像龟，鸟首、虺尾，声音像劈木。据原文，佩戴它可不聋，并可用于治底疾。",
+                  "source": "《山海经（四库全书本）·卷一·南山经》",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "id": "mount-dishan",
+              "name": "柢山",
+              "type": "mountain",
+              "parentId": "range-queshan",
+              "map": { "x": 490, "y": 528 },
+              "originalText": "又东三百里柢山，多水，无草木。有鱼焉，其状如牛，陵居，蛇尾有翼，其羽在魼下，其音如留牛，其名曰鯥，冬死而夏生，食之无肿疾。",
+              "summary": "在杻阳之山东三百里。山中多水，无草木，有一种名为鯥的鱼。",
+              "source": "《山海经（四库全书本）·卷一·南山经》",
+              "children": [
+                {
+                  "id": "entity-lu-fish",
+                  "name": "鯥",
+                  "type": "animal",
+                  "parentId": "mount-dishan",
+                  "map": { "x": 500, "y": 300 },
+                  "originalText": "有鱼焉，其状如牛，陵居，蛇尾有翼，其羽在魼下，其音如留牛，其名曰鯥，冬死而夏生，食之无肿疾。",
+                  "summary": "一种鱼，形状像牛，栖居山陵，有蛇尾和翅，翅在胁下，声音像留牛。据原文，冬死夏生，食用后无肿疾。",
+                  "source": "《山海经（四库全书本）·卷一·南山经》",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "id": "mount-danyuan",
+              "name": "亶爰之山",
+              "type": "mountain",
+              "parentId": "range-queshan",
+              "map": { "x": 585, "y": 668 },
+              "originalText": "又东四百里曰亶爰之山，多水，无草木，不可以上。有兽焉，其状如狸而有髦，其名曰类，自为牝牡，食者不妒。",
+              "summary": "在柢山东四百里。山中多水，无草木，山势不可登上。有一种名为类的兽。",
+              "source": "《山海经（四库全书本）·卷一·南山经》",
+              "children": [
+                {
+                  "id": "entity-lei",
+                  "name": "类",
+                  "type": "animal",
+                  "parentId": "mount-danyuan",
+                  "map": { "x": 500, "y": 300 },
+                  "originalText": "有兽焉，其状如狸而有髦，其名曰类，自为牝牡，食者不妒。",
+                  "summary": "一种兽，形状像狸而有长毛，可自为雌雄。据原文，食用后不会嫉妒。",
+                  "source": "《山海经（四库全书本）·卷一·南山经》",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "id": "mount-jishan",
+              "name": "基山",
+              "type": "mountain",
+              "parentId": "range-queshan",
+              "map": { "x": 680, "y": 528 },
+              "originalText": "又东三百里曰基山，其阳多玉，其阴多怪木。有兽焉，其状如羊，九尾四耳，其目在背，其名曰猼訑，佩之不畏。有鸟焉，其状如鸡而三首、六目、六足、三翼，其名曰𪁺𩿧，食之无卧。",
+              "summary": "在亶爰之山东三百里。山南多玉，山北多怪木。山中有猼訑和𪁺𩿧。",
+              "source": "《山海经（四库全书本）·卷一·南山经》",
+              "children": [
+                {
+                  "id": "entity-boshi",
+                  "name": "猼訑",
+                  "type": "animal",
+                  "parentId": "mount-jishan",
+                  "map": { "x": 320, "y": 430 },
+                  "originalText": "有兽焉，其状如羊，九尾四耳，其目在背，其名曰猼訑，佩之不畏。",
+                  "summary": "一种兽，形状像羊，有九条尾、四只耳，眼睛在背上。据原文，佩戴它可无所畏惧。",
+                  "source": "《山海经（四库全书本）·卷一·南山经》",
+                  "children": []
+                },
+                {
+                  "id": "entity-changfu",
+                  "name": "𪁺𩿧",
+                  "type": "animal",
+                  "parentId": "mount-jishan",
+                  "map": { "x": 680, "y": 570 },
+                  "originalText": "有鸟焉，其状如鸡而三首、六目、六足、三翼，其名曰𪁺𩿧，食之无卧。",
+                  "summary": "一种鸟，形状像鸡，有三首、六目、六足、三翼。据原文，食用后不用睡眠。",
+                  "source": "《山海经（四库全书本）·卷一·南山经》",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "id": "mount-qingqiu",
+              "name": "青丘之山",
+              "type": "mountain",
+              "parentId": "range-queshan",
+              "map": { "x": 775, "y": 668 },
+              "originalText": "又东三百里曰青丘之山，其阳多玉，其阴多青䨼。有兽焉，其状如狐而九尾，其音如婴儿，能食人，食者不蛊。有鸟焉，其状如鸠，其音若呵，名曰灌灌，佩之不惑。英水出焉，南流注于即翼之泽，其中多赤鱬，其状如鱼而人面，其音如鸳鸯，食之不疥。",
+              "summary": "在基山东三百里。山南多玉，山北多青䨼。山中有九尾狐、灌灌，英水中有赤鱬。",
+              "source": "《山海经（四库全书本）·卷一·南山经》",
+              "children": [
+                {
+                  "id": "entity-nine-tail-fox",
+                  "name": "九尾狐",
+                  "type": "animal",
+                  "parentId": "mount-qingqiu",
+                  "map": { "x": 260, "y": 330 },
+                  "originalText": "有兽焉，其状如狐而九尾，其音如婴儿，能食人，食者不蛊。",
+                  "summary": "一种兽，形状像狐而有九尾，声音像婴儿，会吃人。据原文，食用后不受蛊害。",
+                  "source": "《山海经（四库全书本）·卷一·南山经》",
+                  "children": []
+                },
+                {
+                  "id": "entity-guanguan",
+                  "name": "灌灌",
+                  "type": "animal",
+                  "parentId": "mount-qingqiu",
+                  "map": { "x": 740, "y": 330 },
+                  "originalText": "有鸟焉，其状如鸠，其音若呵，名曰灌灌，佩之不惑。",
+                  "summary": "一种鸟，形状像鸠，声音像呵呼。据原文，佩戴它不会迷惑。",
+                  "source": "《山海经（四库全书本）·卷一·南山经》",
+                  "children": []
+                },
+                {
+                  "id": "entity-chiru",
+                  "name": "赤鱬",
+                  "type": "animal",
+                  "parentId": "mount-qingqiu",
+                  "map": { "x": 500, "y": 710 },
+                  "originalText": "英水出焉，南流注于即翼之泽，其中多赤鱬，其状如鱼而人面，其音如鸳鸯，食之不疥。",
+                  "summary": "英水中的鱼，形状像鱼而有人面，声音像鸳鸯。据原文，食用后不生疥。",
+                  "source": "《山海经（四库全书本）·卷一·南山经》",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "id": "mount-jiwei",
+              "name": "箕尾之山",
+              "type": "mountain",
+              "parentId": "range-queshan",
+              "map": { "x": 870, "y": 528 },
+              "originalText": "又东三百五十里曰箕尾之山，其尾踆于东海，多沙石。汸水出焉，而南流注于淯，其中多白玉。凡鹊山之首，自招摇之山以至箕尾之山，凡十山，二千九百五十里。",
+              "summary": "在青丘之山东三百五十里，山尾临近东海，多沙石。汸水从此出，南流入淯，水中多白玉。",
+              "source": "《山海经（四库全书本）·卷一·南山经》",
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": "range-nancier",
+          "name": "南次二经",
+          "type": "range",
+          "parentId": "volume-nanshan",
+          "map": { "x": 500, "y": 560 },
+          "originalText": "南次二经之首曰柜山。",
+          "summary": "南山经第二列山系，内容待补。",
+          "source": "《山海经（四库全书本）·卷一·南山经》",
+          "children": []
+        },
+        {
+          "id": "range-nancisan",
+          "name": "南次三经",
+          "type": "range",
+          "parentId": "volume-nanshan",
+          "map": { "x": 770, "y": 480 },
+          "originalText": "南次三经之首曰天虞之山。",
+          "summary": "南山经第三列山系，内容待补。",
+          "source": "《山海经（四库全书本）·卷一·南山经》",
+          "children": []
+        }
+      ]
+    },
+    {
+      "id": "volume-xishan",
+      "name": "西山经",
+      "type": "volume",
+      "parentId": "root",
+      "map": { "x": 370, "y": 500 },
+      "originalText": null,
+      "summary": "五藏山经第二卷，记西方四列山系。内容待补。",
+      "source": "《山海经·西山经》",
+      "children": []
+    },
+    {
+      "id": "volume-beishan",
+      "name": "北山经",
+      "type": "volume",
+      "parentId": "root",
+      "map": { "x": 500, "y": 630 },
+      "originalText": null,
+      "summary": "五藏山经第三卷，记北方三列山系。内容待补。",
+      "source": "《山海经·北山经》",
+      "children": []
+    },
+    {
+      "id": "volume-dongshan",
+      "name": "东山经",
+      "type": "volume",
+      "parentId": "root",
+      "map": { "x": 630, "y": 500 },
+      "originalText": null,
+      "summary": "五藏山经第四卷，记东方四列山系。内容待补。",
+      "source": "《山海经·东山经》",
+      "children": []
+    },
+    {
+      "id": "region-haiwai",
+      "name": "海外",
+      "type": "region",
+      "parentId": "root",
+      "map": { "x": 500, "y": 500 },
+      "originalText": null,
+      "summary": "海外四经的概念归类，含海外南经、海外西经、海外北经、海外东经。",
+      "source": "《山海经》编排归类",
+      "children": [
+        {
+          "id": "volume-haiwainan",
+          "name": "海外南经",
+          "type": "volume",
+          "parentId": "region-haiwai",
+          "map": { "x": 500, "y": 170 },
+          "originalText": null,
+          "summary": "内容待补。",
+          "source": "《山海经·海外南经》",
+          "children": []
+        },
+        {
+          "id": "volume-haiwaixi",
+          "name": "海外西经",
+          "type": "volume",
+          "parentId": "region-haiwai",
+          "map": { "x": 170, "y": 500 },
+          "originalText": null,
+          "summary": "内容待补。",
+          "source": "《山海经·海外西经》",
+          "children": []
+        },
+        {
+          "id": "volume-haiwaibei",
+          "name": "海外北经",
+          "type": "volume",
+          "parentId": "region-haiwai",
+          "map": { "x": 500, "y": 830 },
+          "originalText": null,
+          "summary": "内容待补。",
+          "source": "《山海经·海外北经》",
+          "children": []
+        },
+        {
+          "id": "volume-haiwaidong",
+          "name": "海外东经",
+          "type": "volume",
+          "parentId": "region-haiwai",
+          "map": { "x": 830, "y": 500 },
+          "originalText": null,
+          "summary": "内容待补。",
+          "source": "《山海经·海外东经》",
+          "children": []
+        }
+      ]
+    },
+    {
+      "id": "region-hainei",
+      "name": "海内",
+      "type": "region",
+      "parentId": "root",
+      "map": { "x": 500, "y": 500 },
+      "originalText": null,
+      "summary": "海内四经的概念归类，含海内南经、海内西经、海内北经、海内东经。",
+      "source": "《山海经》编排归类",
+      "children": [
+        {
+          "id": "volume-haineinan",
+          "name": "海内南经",
+          "type": "volume",
+          "parentId": "region-hainei",
+          "map": { "x": 500, "y": 170 },
+          "originalText": null,
+          "summary": "内容待补。",
+          "source": "《山海经·海内南经》",
+          "children": []
+        },
+        {
+          "id": "volume-haineixi",
+          "name": "海内西经",
+          "type": "volume",
+          "parentId": "region-hainei",
+          "map": { "x": 170, "y": 500 },
+          "originalText": null,
+          "summary": "内容待补。",
+          "source": "《山海经·海内西经》",
+          "children": []
+        },
+        {
+          "id": "volume-haineibei",
+          "name": "海内北经",
+          "type": "volume",
+          "parentId": "region-hainei",
+          "map": { "x": 500, "y": 830 },
+          "originalText": null,
+          "summary": "内容待补。",
+          "source": "《山海经·海内北经》",
+          "children": []
+        },
+        {
+          "id": "volume-haineidong",
+          "name": "海内东经",
+          "type": "volume",
+          "parentId": "region-hainei",
+          "map": { "x": 830, "y": 500 },
+          "originalText": null,
+          "summary": "内容待补。",
+          "source": "《山海经·海内东经》",
+          "children": []
+        }
+      ]
+    },
+    {
+      "id": "region-dahuang",
+      "name": "大荒",
+      "type": "region",
+      "parentId": "root",
+      "map": { "x": 500, "y": 500 },
+      "originalText": null,
+      "summary": "大荒四经与海内经的概念归类，含大荒东经、大荒南经、大荒西经、大荒北经、海内经。",
+      "source": "《山海经》编排归类",
+      "children": [
+        {
+          "id": "volume-dahuangdong",
+          "name": "大荒东经",
+          "type": "volume",
+          "parentId": "region-dahuang",
+          "map": { "x": 830, "y": 500 },
+          "originalText": null,
+          "summary": "内容待补。",
+          "source": "《山海经·大荒东经》",
+          "children": []
+        },
+        {
+          "id": "volume-dahuangnan",
+          "name": "大荒南经",
+          "type": "volume",
+          "parentId": "region-dahuang",
+          "map": { "x": 500, "y": 170 },
+          "originalText": null,
+          "summary": "内容待补。",
+          "source": "《山海经·大荒南经》",
+          "children": []
+        },
+        {
+          "id": "volume-dahuangxi",
+          "name": "大荒西经",
+          "type": "volume",
+          "parentId": "region-dahuang",
+          "map": { "x": 170, "y": 500 },
+          "originalText": null,
+          "summary": "内容待补。",
+          "source": "《山海经·大荒西经》",
+          "children": []
+        },
+        {
+          "id": "volume-dahuangbei",
+          "name": "大荒北经",
+          "type": "volume",
+          "parentId": "region-dahuang",
+          "map": { "x": 500, "y": 830 },
+          "originalText": null,
+          "summary": "内容待补。",
+          "source": "《山海经·大荒北经》",
+          "children": []
+        },
+        {
+          "id": "volume-haineijing",
+          "name": "海内经",
+          "type": "volume",
+          "parentId": "region-dahuang",
+          "map": { "x": 733, "y": 267 },
+          "originalText": null,
+          "summary": "传世本末卷，内容待补。",
+          "source": "《山海经·海内经》",
+          "children": []
+        }
+      ]
+    }
+  ]
+}
