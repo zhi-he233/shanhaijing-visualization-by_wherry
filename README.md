@@ -5,6 +5,8 @@
 
 技术栈：React 18 + Vite + TypeScript + Zustand + Framer Motion，地图全部用 SVG 手绘，无 UI 组件库、无 D3。
 
+**在线访问：** https://zhi-he233.github.io/shanhaijing-visualization-by_wherry/
+
 ## 运行
 
 ```bash
@@ -19,6 +21,14 @@ npm run typecheck  # tsc --noEmit
 npm run build      # 类型检查 + 生产构建到 dist/
 npm run preview    # 预览构建产物
 ```
+
+## 部署
+
+推送到 `main` 分支会自动触发 `.github/workflows/deploy.yml`，把构建产物发布到 GitHub Pages；
+也可以在仓库的 Actions 页面手动触发。
+
+注意构建时的资源前缀：Pages 站点位于 `/<仓库名>/` 子路径下，`vite.config.ts` 会在 build
+时自动把 `base` 设成仓库名，本地 `npm run dev` 仍走根路径，所以两种方式的访问地址不同。
 
 ## 项目结构
 
